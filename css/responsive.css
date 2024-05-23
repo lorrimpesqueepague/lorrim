@@ -1,0 +1,155 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+padding-left: 0;
+    align-items: center;
+  }
+
+  .user_option{
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    margin-top: 45px;
+  }
+
+  .offer_section .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .about_section .detail-box,
+  .book_section .form_container {
+    margin-bottom: 45px;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .offer_section .box {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 430px) {
+  .offer_section .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:991px) {
+  .rent_solution_container .col-md-4.col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+}
+
+/* Media query para tablets e desktops */
+@media (min-width: 768px) {
+  #customCarousel1 .carousel-item .detail-box img {
+    max-width: 90%; /* Reduz a largura máxima para evitar que as imagens fiquem muito grandes */
+  }
+}
+
+/* Media query para telas largas */
+@media (min-width: 992px) {
+  #customCarousel1 .carousel-item .detail-box img {
+    max-width: 80%; /* Mais espaço ao redor das imagens em telas realmente grandes */
+  }
+}
+
+/* Estilos padrão, aplicáveis a dispositivos móveis e quando nenhuma outra media query se aplica */
+#customCarousel1 .carousel-item .detail-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0;
+}
+
+
+/*Logo */
+.logo {
+    width: 160px; /* Ajusta a largura para 110 pixels */
+}
+/*Reduzir espaço da logo e do carrosel */
+
+.header_section {
+    padding-bottom: 10px; /* Reduz o padding inferior pela metade, ajuste conforme necessário */
+}
+
+
+
+.slider_section {
+    margin-top: -20px; /* Pode usar valores negativos para reduzir espaço, ajuste conforme necessário */
+}
+
+@media (min-width: 768px) {
+    .header_section {
+        padding-bottom: 10px; /* Ajuste para não-mobile */
+    }
+    .slider_section {
+        margin-top: -20px; /* Ajuste para não-mobile */
+    }
+}
+
+@media (min-width: 992px) {
+    .header_section {
+        padding-bottom: 10px; /* Ajuste para não-mobile */
+    }
+    .slider_section {
+        margin-top: -20px; /* Ajuste para não-mobile */
+    }
+}
+
